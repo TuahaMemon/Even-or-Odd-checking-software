@@ -2,7 +2,7 @@ function calculate() {
     let number = document.querySelector("#number").value;
 
     let result = (number) % 2;
-    document.querySelector("#result").innerHTML = `Your answer is ${result}`;
+    document.querySelector("#result").innerHTML = `Your given Number is ${number } and, Your answer is ${result}`;
 }
 
 
