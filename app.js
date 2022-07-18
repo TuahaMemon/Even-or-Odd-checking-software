@@ -1,20 +1,22 @@
 function calculate() {
-    let number = document.querySelector("#number").value;
+    
+    // let result = (num) % 2;
+    // document.querySelector("#result").innerHTML = `Your given Number is ${number} and, Your answer is ${result}`;
+    
+    
+    let number = +document.querySelector("#number").value;
 
-    let result = (number) % 2;
-    document.querySelector("#result").innerHTML = `Your given Number is ${number } and, Your answer is ${result}`;
+
+if(number % 2 == 0){
+    
+    document.querySelector("#result").innerHTML = 
+    `Your given number is ${number}, and it is Even`
 }
-
-
-
-// if(number % 2 == 0){
-    
-//     document.querySelector("#result").innerHTML = `Your given number is Even ${result}`;
-// }
-// else{
-    
-//     document.querySelector("#result").innerHTML = `Your given number is Odd ${result}`;
-// }
+else{
+    document.querySelector("#result").innerHTML = 
+    `Your given number is ${number}, and it is Odd`
+   
+}
 
 
 
@@ -31,4 +33,4 @@ function calculate() {
 // // if the number is odd
 // else {
 //     console.log("The number is odd.");
-// }
+}
