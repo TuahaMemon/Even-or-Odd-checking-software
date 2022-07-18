@@ -1,36 +1,37 @@
 function calculate() {
-    
-    // let result = (num) % 2;
-    // document.querySelector("#result").innerHTML = `Your given Number is ${number} and, Your answer is ${result}`;
-    
-    
+
+
+    // Answer will be displayed on screen
+
     let number = +document.querySelector("#number").value;
 
 
-if(number % 2 == 0){
-    
-    document.querySelector("#result").innerHTML = 
-    `Your given number is ${number}, and it is Even`
-}
-else{
-    document.querySelector("#result").innerHTML = 
-    `Your given number is ${number}, and it is Odd`
-   
-}
+    if (number % 2 == 0) {
+
+        document.querySelector("#result").innerHTML =
+            `Your given number is ${number}, and it is Even`
+    }
+    else {
+        document.querySelector("#result").innerHTML =
+            `Your given number is ${number}, and it is Odd`
+
+    }
 
 
 
 
-// program to check if the number is even or odd
-// take input from the user
-// const number = prompt("Enter a number: ");
+    // Answer will be displayed on console
 
-// //check if the number is even
-// if(number / 2 == 0) {
-//     console.log("The number is even.");
-// }
+    // program to check if the number is even or odd
+    // take input from the user
+    // const number = prompt("Enter a number: ");
 
-// // if the number is odd
-// else {
-//     console.log("The number is odd.");
+    // //check if the number is even
+    // if(number / 2 == 0) {
+    //     console.log("The number is even.");
+    // }
+
+    // // if the number is odd
+    // else {
+    //     console.log("The number is odd.");
 }
